@@ -23,4 +23,8 @@ export class AppComponent {
   divide() {
     this.result = this.num1 / this.num2;
   }
+
+  remainder() {
+    this.result = this.num1 % this.num2;
+  }
 }
